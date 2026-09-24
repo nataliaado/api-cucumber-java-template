@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="18.937" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Users\Nataliaado\Documents\projetos-automacao\api-cucumber-template\target\test-classes;D:\Users\Nataliaado\Documents\projetos-automacao\api-cucumber-template\target\classes;C:\Users\Nataliaado\.m2\repository\io\cucumber\cucumber-java\7.11.2\cucumber-java-7.11.2.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\cucumber-core\7.11.2\cucumber-core-7.11.2.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\cucumber-gherkin\7.11.2\cucumber-gherkin-7.11.2.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.2\cucumber-gherkin-messages-7.11.2.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\datatable\7.11.2\datatable-7.11.2.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\cucumber-plugin\7.11.2\cucumber-plugin-7.11.2.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\docstring\7.11.2\docstring-7.11.2.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\Nataliaado\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.11.2\cucumber-junit-platform-engine-7.11.2.jar;C:\Users\Nataliaado\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\Nataliaado\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Nataliaado\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Nataliaado\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Nataliaado\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Nataliaado\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Nataliaado\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Nataliaado\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Nataliaado\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Nataliaado\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Nataliaado\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Nataliaado\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Nataliaado\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Nataliaado\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Nataliaado\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Nataliaado\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Nataliaado\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Nataliaado\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Nataliaado\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\Nataliaado\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\Nataliaado\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\Nataliaado\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\Nataliaado\.m2\repository\org\junit\platform\junit-platform-suite\1.9.3\junit-platform-suite-1.9.3.jar;C:\Users\Nataliaado\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.3\junit-platform-suite-api-1.9.3.jar;C:\Users\Nataliaado\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.3\junit-platform-suite-engine-1.9.3.jar;C:\Users\Nataliaado\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.3\junit-platform-suite-commons-1.9.3.jar;C:\Users\Nataliaado\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.3\junit-platform-launcher-1.9.3.jar;C:\Users\Nataliaado\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\Nataliaado\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\Nataliaado\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
+    <property name="sun.java.command" value="C:\Users\Nataliaado\AppData\Local\Temp\surefire15825105245866427611\surefirebooter-20260924153732715_3.jar C:\Users\Nataliaado\AppData\Local\Temp\surefire15825105245866427611 2026-09-24T15-37-29_598-jvmRun1 surefire-20260924153732715_1tmp surefire_0-20260924153732715_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Users\Nataliaado\Documents\projetos-automacao\api-cucumber-template\target\test-classes;D:\Users\Nataliaado\Documents\projetos-automacao\api-cucumber-template\target\classes;C:\Users\Nataliaado\.m2\repository\io\cucumber\cucumber-java\7.11.2\cucumber-java-7.11.2.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\cucumber-core\7.11.2\cucumber-core-7.11.2.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\cucumber-gherkin\7.11.2\cucumber-gherkin-7.11.2.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.2\cucumber-gherkin-messages-7.11.2.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\datatable\7.11.2\datatable-7.11.2.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\cucumber-plugin\7.11.2\cucumber-plugin-7.11.2.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\docstring\7.11.2\docstring-7.11.2.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\Nataliaado\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Nataliaado\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.11.2\cucumber-junit-platform-engine-7.11.2.jar;C:\Users\Nataliaado\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\Nataliaado\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Nataliaado\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Nataliaado\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Nataliaado\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Nataliaado\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Nataliaado\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Nataliaado\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Nataliaado\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Nataliaado\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Nataliaado\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Nataliaado\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Nataliaado\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Nataliaado\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Nataliaado\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Nataliaado\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Nataliaado\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Nataliaado\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Nataliaado\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\Nataliaado\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\Nataliaado\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\Nataliaado\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\Nataliaado\.m2\repository\org\junit\platform\junit-platform-suite\1.9.3\junit-platform-suite-1.9.3.jar;C:\Users\Nataliaado\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.3\junit-platform-suite-api-1.9.3.jar;C:\Users\Nataliaado\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.3\junit-platform-suite-engine-1.9.3.jar;C:\Users\Nataliaado\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.3\junit-platform-suite-commons-1.9.3.jar;C:\Users\Nataliaado\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.3\junit-platform-launcher-1.9.3.jar;C:\Users\Nataliaado\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\Nataliaado\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\Nataliaado\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Nataliaado"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Users\Nataliaado\Documents\projetos-automacao\api-cucumber-template"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Nataliaado\AppData\Local\Temp\surefire15825105245866427611\surefirebooter-20260924153732715_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
+    <property name="user.name" value="Nataliaado"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Nataliaado\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Nataliaado\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="D:\Users\Nataliaado\Documents\projetos-automacao\api-cucumber-template"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Nataliaado\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Nataliaado\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Apache\maven\bin;C:\Program Files\Java\scripts;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Apache\maven\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk-25\bin;C:\Android\cmdline-tools\latest\bin;C:\Android\platform-tools;C:\Android\emulator;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MongoDB\Server\8.3\bin;&quot;C:\Users\Nataliaado\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Apache\maven\bin&quot;;C:\Program Files\Apache\maven\bin;;C:\Users\Nataliaado\AppData\Local\Microsoft\WindowsApps;C:\Users\Nataliaado\AppData\Roaming\npm;C:\Users\Nataliaado\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\Nataliaado\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="Gerar token com sucesso" classname="Autenticação" time="5.317">
+    <system-out><![CDATA[
+@auth
+Scenario: Gerar token com sucesso          &amp#27;[90m# features/auth.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque possuo credenciais validas&amp#27;[0m     &amp#27;[90m# steps.AuthSteps.credenciaisValidas()&amp#27;[0m
+BASE URL CONFIG: https://restful-booker.herokuapp.com
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+HTTP/1.1 200 OK
+Content-Length: 27
+Content-Type: application/json; charset=utf-8
+Date: Thu, 24 Sep 2026 18:37:40 GMT
+Etag: W/"1b-bbFYxWBCM6l537kkmESDBM//q+A"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=3ovTlFXNhP2Ql5pqs4yfm1J2EGQ6ZWs4iBbPwSZQN94%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1790275060"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=3ovTlFXNhP2Ql5pqs4yfm1J2EGQ6ZWs4iBbPwSZQN94%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1790275060"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+{
+    "token": "0237a7fd6844d74"
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32msolicito a geracao do token&amp#27;[0m         &amp#27;[90m# steps.AuthSteps.solicitarToken()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mo token deve ser gerado com sucesso&amp#27;[0m &amp#27;[90m# steps.AuthSteps.validarToken()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Cadastrar booking" classname="Cadastrar booking" time="1.015">
+    <system-out><![CDATA[
+@createBooking
+Scenario: Cadastrar booking                  &amp#27;[90m# features/createBooking.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque possuo acesso a API de bookings&amp#27;[0m  &amp#27;[90m# steps.BookingSteps.acessoApi()&amp#27;[0m
+BASE URL CONFIG: https://restful-booker.herokuapp.com
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mrealizo o cadastro de um novo booking&amp#27;[0m &amp#27;[90m# steps.BookingSteps.criarBooking()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma API deve retornar status code 200&amp#27;[0m   &amp#27;[90m# steps.BookingSteps.validarStatusCode200()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mdeve retornar o booking cadastrado&amp#27;[0m     &amp#27;[90m# steps.BookingSteps.validarBookingCriado()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Deletar booking especifico por ID" classname="Deletar booking especifico por ID" time="3.348">
+    <system-out><![CDATA[
+@deleteBooking
+Scenario: Deletar booking especifico por ID &amp#27;[90m# features/deleteBooking.feature:4&amp#27;[0m
+BASE URL CONFIG: https://restful-booker.herokuapp.com
+Booking criado: 3680
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque existe um booking cadastrado&amp#27;[0m    &amp#27;[90m# steps.BookingSteps.criarBookingCapturarID()&amp#27;[0m
+BASE URL CONFIG: https://restful-booker.herokuapp.com
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+HTTP/1.1 200 OK
+Content-Length: 27
+Content-Type: application/json; charset=utf-8
+Date: Thu, 24 Sep 2026 18:37:44 GMT
+Etag: W/"1b-Rfyg79rOUXlk7lDO22FmncpFlR8"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=j5VEMslXPtUs4jzr5jFpSLxULC%2BlczuSL0qyPj7OCtI%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1790275064"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=j5VEMslXPtUs4jzr5jFpSLxULC%2BlczuSL0qyPj7OCtI%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1790275064"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+{
+    "token": "351b55ffb0cfb0b"
+}
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32msolicito a geracao do token&amp#27;[0m           &amp#27;[90m# steps.AuthSteps.solicitarToken()&amp#27;[0m
+BASE URL CONFIG: https://restful-booker.herokuapp.com
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mrealizo a exclusao do booking&amp#27;[0m        &amp#27;[90m# steps.BookingSteps.realizo_a_exclusao_do_booking()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma API deve retornar status code 201&amp#27;[0m  &amp#27;[90m# steps.BookingSteps.validarStatusCode201()&amp#27;[0m
+BASE URL CONFIG: https://restful-booker.herokuapp.com
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mo booking nao deve mais existir&amp#27;[0m       &amp#27;[90m# steps.BookingSteps.validarExclusao()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Consultar booking específico por ID" classname="Consultar booking específico por ID" time="1.804">
+    <system-out><![CDATA[
+@getBooking
+Scenario: Consultar booking específico por ID  &amp#27;[90m# features/getBooking.feature:4&amp#27;[0m
+BASE URL CONFIG: https://restful-booker.herokuapp.com
+Booking criado: 3715
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque existe um booking cadastrado&amp#27;[0m       &amp#27;[90m# steps.BookingSteps.criarBookingCapturarID()&amp#27;[0m
+BASE URL CONFIG: https://restful-booker.herokuapp.com
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mrealizo a consulta de booking por id&amp#27;[0m    &amp#27;[90m# steps.BookingSteps.consultarBookingsPorID()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma API deve retornar status code 200&amp#27;[0m     &amp#27;[90m# steps.BookingSteps.validarStatusCode200()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mdeve retornar o booking do ID mencionado&amp#27;[0m &amp#27;[90m# steps.BookingSteps.validarBookingPorID()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Consultar IDS de uma lista de bookings" classname="Consulta IDS de uma lista de bookings" time="1.481">
+    <system-out><![CDATA[
+@getBookingIDS
+Scenario: Consultar IDS de uma lista de bookings &amp#27;[90m# features/getBookingIDS.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque possuo acesso a API de bookings&amp#27;[0m      &amp#27;[90m# steps.BookingSteps.acessoApi()&amp#27;[0m
+BASE URL CONFIG: https://restful-booker.herokuapp.com
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mrealizo a consulta de todos os bookings&amp#27;[0m   &amp#27;[90m# steps.BookingSteps.consultarBookings()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma API deve retornar status code 200&amp#27;[0m       &amp#27;[90m# steps.BookingSteps.validarStatusCode200()&amp#27;[0m
+Quantidade de bookings: 2607
+[3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mdeve retornar uma lista de bookings&amp#27;[0m        &amp#27;[90m# steps.BookingSteps.validarListaBookings()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Atualizar parcialmente um booking existente" classname="Atualizar parcialmente um booking" time="2.626">
+    <system-out><![CDATA[
+@partialUpdateBooking
+Scenario: Atualizar parcialmente um booking existente &amp#27;[90m# features/partialUpdateBooking.feature:4&amp#27;[0m
+BASE URL CONFIG: https://restful-booker.herokuapp.com
+Booking criado: 3749
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque existe um booking cadastrado&amp#27;[0m              &amp#27;[90m# steps.BookingSteps.criarBookingCapturarID()&amp#27;[0m
+BASE URL CONFIG: https://restful-booker.herokuapp.com
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+HTTP/1.1 200 OK
+Content-Length: 27
+Content-Type: application/json; charset=utf-8
+Date: Thu, 24 Sep 2026 18:37:51 GMT
+Etag: W/"1b-rcoys/ULaf/9vr/dZ/eGTe67xDs"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=15pjNR%2F8cK%2FfVfOEQ4dV7piPyXQ8LmUnWUgwQz3gwoY%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1790275071"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=15pjNR%2F8cK%2FfVfOEQ4dV7piPyXQ8LmUnWUgwQz3gwoY%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1790275071"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+{
+    "token": "aabbf1230e0f669"
+}
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32msolicito a geracao do token&amp#27;[0m                     &amp#27;[90m# steps.AuthSteps.solicitarToken()&amp#27;[0m
+BASE URL CONFIG: https://restful-booker.herokuapp.com
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mrealizo a atualizacao parcial do booking&amp#27;[0m       &amp#27;[90m# steps.BookingSteps.atualizarBookingParcial()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma API deve retornar status code 200&amp#27;[0m            &amp#27;[90m# steps.BookingSteps.validarStatusCode200()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mdeve retornar os dados parcialmente atualizados&amp#27;[0m &amp#27;[90m# steps.BookingSteps.validarBookingParcialAtualizado()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Atualizar booking existente" classname="Atualizar booking" time="2.563">
+    <system-out><![CDATA[
+@updateBooking
+Scenario: Atualizar booking existente      &amp#27;[90m# features/updateBooking.feature:4&amp#27;[0m
+BASE URL CONFIG: https://restful-booker.herokuapp.com
+Booking criado: 3769
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mque existe um booking cadastrado&amp#27;[0m   &amp#27;[90m# steps.BookingSteps.criarBookingCapturarID()&amp#27;[0m
+BASE URL CONFIG: https://restful-booker.herokuapp.com
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "password123"
+}
+HTTP/1.1 200 OK
+Content-Length: 27
+Content-Type: application/json; charset=utf-8
+Date: Thu, 24 Sep 2026 18:37:53 GMT
+Etag: W/"1b-OYPhmG0PmWedg4Z7pwinJdUUAzs"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Fo8e4UZUJQ27EW6JqJ47IfIhQW2Mr%2BCMUagsUrDeNjU%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1790275073"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Fo8e4UZUJQ27EW6JqJ47IfIhQW2Mr%2BCMUagsUrDeNjU%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1790275073"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+{
+    "token": "bde895250ea64f6"
+}
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32msolicito a geracao do token&amp#27;[0m          &amp#27;[90m# steps.AuthSteps.solicitarToken()&amp#27;[0m
+TOKEN: bde895250ea64f6
+BOOKING ID: 3769
+BASE URL CONFIG: https://restful-booker.herokuapp.com
+Request method:	PUT
+Request URI:	https://restful-booker.herokuapp.com/booking/3769
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=3769
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		token=bde895250ea64f6
+Multiparts:		<none>
+Body:
+{
+    "firstname": "James",
+    "lastname": "Brown",
+    "totalprice": 200,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2026-01-01",
+        "checkout": "2026-01-10"
+    },
+    "additionalneeds": "Lunch"
+}
+HTTP/1.1 200 OK
+Content-Length: 166
+Content-Type: application/json; charset=utf-8
+Date: Thu, 24 Sep 2026 18:37:54 GMT
+Etag: W/"a6-YenUwgUaX1/XtymPwa/1zbES/iQ"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=imuFmqqWA%2Bxesaj4XaGjAVY7dlwNIve8lP0L3Etk9Qk%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1790275074"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=imuFmqqWA%2Bxesaj4XaGjAVY7dlwNIve8lP0L3Etk9Qk%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1790275074"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+{
+    "firstname": "James",
+    "lastname": "Brown",
+    "totalprice": 200,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2026-01-01",
+        "checkout": "2026-01-10"
+    },
+    "additionalneeds": "Lunch"
+}
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mrealizo a atualizacao do booking&amp#27;[0m    &amp#27;[90m# steps.BookingSteps.atualizarBooking()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma API deve retornar status code 200&amp#27;[0m &amp#27;[90m# steps.BookingSteps.validarStatusCode200()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mdeve retornar os dados atualizados&amp#27;[0m   &amp#27;[90m# steps.BookingSteps.validarBookingAtualizado()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
